@@ -9,7 +9,7 @@ import argparse
 import imutils
 import time
 import cv2
-from yolovideodisp import Video
+from opencv_gstreamer import Video
 
 ap = argparse.ArgumentParser()
 ap.add_argument("-p", "--txtf", required=True,
